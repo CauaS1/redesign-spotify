@@ -1,0 +1,104 @@
+.all-musics {
+  display: flex;
+  padding: 10px;
+}
+
+.all-songs, .liked-songs {
+  width: 310px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.liked-songs {
+  margin-left: 50px;
+}
+
+.all-songs .header, .liked-songs .header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10.5px;
+}
+
+.all-songs ul, .liked-songs ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-songs ul li, .liked-songs ul li {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: #afafaf;
+}
+
+.all-songs ul li span {
+  color: #1cf08a;
+  font-size: 13.5px;
+}
+
+.all-songs ul li svg {
+  color: #1cf08a;
+  align-items: center;
+  width: 10px;
+  margin-right: 8px;
+}
+
+@media(max-width: 1325px) {
+  .all-songs, .liked-songs {
+    width: 280px;
+  }
+}
+
+@media(max-width: 1300px) {
+  .all-songs, .liked-songs {
+    width: 270px;
+  }
+}
+
+@media(max-width: 1250px) {
+  .all-songs, .liked-songs {
+    width: 245px;
+  }
+}
+
+@media(max-width: 1260px) {
+  .all-songs, .liked-songs {
+    width: 255px;
+  }
+}
+
+@media(max-width: 1245px) {
+  .all-songs, .liked-songs {
+    width: 250px;
+  }
+}
+
+@media(max-width: 1235px) {
+  .all-songs, .liked-songs {
+    width: 245px;
+  }
+}
+
+@media(max-width: 1215px) {
+  .all-songs, .liked-songs {
+    width: 240px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .all-songs, .liked-songs {
+    width: 230px;
+  }
+}
+
+@media(max-width: 1160px) {
+  .all-songs, .liked-songs {
+    width: 210px;
+  }
+}

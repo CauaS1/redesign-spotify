@@ -1,0 +1,79 @@
+.header {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input {
+  width: 280px;
+  margin-left: -5px;
+}
+
+.header .search .input input {
+  padding: 10px 40px; 
+  width: 240px;
+  border-radius: 20px;  
+  outline: none;
+  border: 0;
+  background-color: #1a1d20;
+  color: #afafaf;
+  margin-top: 20px;
+}
+
+.search .input {
+  position: relative;
+}
+
+.search .input svg {
+  position: absolute;
+  top: 28px;
+  left: 210px;
+}
+
+.header .perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.header .perfil img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.perfil p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.perfil svg {
+  cursor: pointer;
+}
+
+.perfil .bell {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (max-width: 1115px) {
+  .header .perfil {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .header .perfil {
+    margin-right: 10px;
+  }
+}
