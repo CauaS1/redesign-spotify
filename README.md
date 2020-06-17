@@ -15,3 +15,5 @@ Want to see the Original Design ?
 ## Dependences
 Icons
 `yarn add react-icons`
+
+<i>It's not fully reponsive, for a good experience the min width is `1100px`</i>
